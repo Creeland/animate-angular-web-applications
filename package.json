@@ -1,7 +1,12 @@
 {
   "name": "animate-angular-web-applications",
+  "private": true,
+  "workspaces": [
+    "lessons/*"
+  ],
+  "scripts": {
+    "start": "echo start"
+  },
   "version": "1.0.0",
-  "main": "index.js",
-  "author": "Cree <cree@provinsal.com>",
   "license": "MIT"
 }
